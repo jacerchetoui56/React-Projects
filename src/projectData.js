@@ -33,13 +33,13 @@ const projects = [
         name: "Tours",
         imageUrl: "./images/tours.jpg",
         link: `https://tours.jacerchetoui.me`,
-        keywords: ["useState", "useEffect", "Events", "conditional rendering", "fetch API"]
+        keywords: ["useState", "useEffect", "fetch API", "Events", "conditional rendering"]
     },
     {
         name: "Color Generator",
         imageUrl: "./images/color-generator.jpg",
         link: `https://colorgenerator.jacerchetoui.me`,
-        keywords: ["form", "useState", "useEffect", "Events", "conditional rendering", "fetch API"]
+        keywords: ["form", "useState", "useEffect", "fetch API", "Events", "conditional rendering"]
     },
     {
         name: "SideBar",

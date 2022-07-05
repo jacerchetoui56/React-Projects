@@ -6,7 +6,6 @@ function App() {
     <>
       <Header />
       <Main />
-      <h3 className="credit">Made with ❤ By Jacer Chetoui</h3>
     </>
   );
 }
