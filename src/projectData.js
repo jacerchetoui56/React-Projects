@@ -12,6 +12,12 @@ const projects = [
         keywords: ["useState", "useEffect", "Events", "conditional rendering"]
     },
     {
+        name: "Quizzical",
+        imageUrl: "./images/quizzical.jpg",
+        link: `https://quizzical.jacerchetoui.me`,
+        keywords: ["useState", "useEffect", "useMemo", "Events", "conditional rendering", "fetch API"]
+    },
+    {
         name: "Meme Generator",
         imageUrl: "./images/memegenerator.jpg",
         link: `https://memegenerator.jacerchetoui.me`,
@@ -36,10 +42,22 @@ const projects = [
         keywords: ["form", "useState", "useEffect", "Events", "conditional rendering", "fetch API"]
     },
     {
+        name: "SideBar",
+        imageUrl: "./images/sidebar.jpg",
+        link: `https://sidebar.jacerchetoui.me`,
+        keywords: ["useContext", "custom Hooks", "useState", "Events", "conditional rendering"]
+    },
+    {
         name: "Reviews",
         imageUrl: "./images/reviews.jpg",
         link: `https://reviews.jacerchetoui.me`,
         keywords: ["useState", "Events"]
+    },
+    {
+        name: "navbar",
+        imageUrl: "./images/navbar.jpg",
+        link: `https://navbar.jacerchetoui.me`,
+        keywords: ["useState", "useEffect", "useRef", "Events", "conditional rendering"]
     },
     {
         name: "Food Menu",
