@@ -1,5 +1,11 @@
 const projects = [
     {
+        name: "Memory Game",
+        imageUrl: "./images/memory-game.jpg",
+        link: `https://todoapp.jacerchetoui.me`,
+        keywords: ["useState", "useEffect", "localStorage", "Events", "conditional rendering"]
+    },
+    {
         name: "ToDo App",
         imageUrl: "./images/todo.jpg",
         link: `https://todoapp.jacerchetoui.me`,
@@ -16,6 +22,12 @@ const projects = [
         imageUrl: "./images/quizzical.jpg",
         link: `https://quizzical.jacerchetoui.me`,
         keywords: ["useState", "useEffect", "useMemo", "Events", "conditional rendering", "fetch API"]
+    },
+    {
+        name: "SideBar",
+        imageUrl: "./images/sidebar.jpg",
+        link: `https://sidebar.jacerchetoui.me`,
+        keywords: ["useContext", "custom Hooks", "useState", "Events", "conditional rendering"]
     },
     {
         name: "Meme Generator",
@@ -40,12 +52,6 @@ const projects = [
         imageUrl: "./images/color-generator.jpg",
         link: `https://colorgenerator.jacerchetoui.me`,
         keywords: ["form", "useState", "useEffect", "fetch API", "Events", "conditional rendering"]
-    },
-    {
-        name: "SideBar",
-        imageUrl: "./images/sidebar.jpg",
-        link: `https://sidebar.jacerchetoui.me`,
-        keywords: ["useContext", "custom Hooks", "useState", "Events", "conditional rendering"]
     },
     {
         name: "Reviews",
