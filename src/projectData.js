@@ -20,7 +20,7 @@ const projects = [
     {
         name: "GitFinder",
         imageUrl: "./images/gitfinder.jpg",
-        link: `https://gitfinder.jacerchetoui.me`,
+        link: `https://githubfinder.jacerchetoui.me`,
         keywords: ["tailwindCSS", "useState", "useEffect", "Events", "Fetch API"]
     },
     {
