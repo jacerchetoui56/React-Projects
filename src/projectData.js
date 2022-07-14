@@ -2,7 +2,7 @@ const projects = [
     {
         name: "Memory Game",
         imageUrl: "./images/memory-game.jpg",
-        link: `https://todoapp.jacerchetoui.me`,
+        link: `https://memory-game.jacerchetoui.me`,
         keywords: ["useState", "useEffect", "localStorage", "Events", "conditional rendering"]
     },
     {
@@ -16,6 +16,12 @@ const projects = [
         imageUrl: "./images/tenzies-game.jpg",
         link: `https://tenzies-game.jacerchetoui.me`,
         keywords: ["useState", "useEffect", "Events", "conditional rendering"]
+    },
+    {
+        name: "GitFinder",
+        imageUrl: "./images/gitfinder.jpg",
+        link: `https://gitfinder.jacerchetoui.me`,
+        keywords: ["tailwindCSS", "useState", "useEffect", "Events", "Fetch API"]
     },
     {
         name: "Quizzical",
