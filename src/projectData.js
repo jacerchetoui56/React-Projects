@@ -30,6 +30,18 @@ const projects = [
         keywords: ["useState", "useEffect", "useMemo", "Events", "conditional rendering", "fetch API"]
     },
     {
+        name: "Shopping Cart",
+        imageUrl: "./images/cart.jpg",
+        link: `https://shopping-cart.jacerchetoui.me/`,
+        keywords: ["SCSS", "useReducer", "useContext", "useState", "useEffect", "Events", "conditional rendering"]
+    },
+    {
+        name: "Stripe Submenu",
+        imageUrl: "./images/stripe.jpg",
+        link: `https://stripe-submenu.jacerchetoui.me`,
+        keywords: ["useContext", "useRef", "useState", "Events", "conditional rendering"]
+    },
+    {
         name: "SideBar",
         imageUrl: "./images/sidebar.jpg",
         link: `https://sidebar.jacerchetoui.me`,
