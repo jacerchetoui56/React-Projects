@@ -26,6 +26,12 @@ header .header-container {
   gap: 0.5rem;
   padding: 1rem 0;
 }
+header a {
+  color: #333333;
+}
+header a:hover {
+  text-decoration: underline;
+}
 header .logo {
   display: flex;
   align-items: center;
@@ -36,6 +42,7 @@ header .credit {
   font-size: 1.25rem;
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 
 header .socials svg {
@@ -67,12 +74,11 @@ header h3 {
 
 /* !======== projects =========== */
 main {
-  width: min(850px, 80%);
+  width: min(950px, 80%);
   margin: 2rem auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  place-items: center;
   gap: 1rem;
 }
 .project {
@@ -82,13 +88,13 @@ main {
   text-align: center;
   border-radius: 5px;
   box-shadow: 0 5px 10px -3px #727272b5;
-  max-width: 250px;
+  max-width: 280px;
   margin-top: 2rem;
 }
 .project img {
   width: 100%;
-  max-width: 250px;
-  height: 250px;
+  /* max-width: 0px; */
+  height: 220px;
 }
 
 .project h3 {
